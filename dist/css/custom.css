@@ -75,7 +75,7 @@
     cursor: grab;
 }
 
-.completed-task-item{
+/* .completed-task-item{
     
     display: flex;
     width: 100%;
@@ -85,7 +85,7 @@
     justify-content: space-between;
     cursor: grab;
 }
-
+*/
 
 .grab-button{
     padding: 0 !important; 
@@ -101,3 +101,39 @@
     box-shadow: 8xp 8px 32px #e1e1e1;
 }
 /* -------------                         ------------- */
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    
+
+    .backgroundImage{
+        width: auto;
+        height: 42%;
+    }
+
+    .input-container{
+        width: 80%;
+        padding: 0px 30px;
+    }
+
+    .todoList-container{
+        width: 80%
+    }
+
+    .uncompleted-task-item {
+    
+        width: 100%;
+        padding: 5px;
+       
+    }
+
+
+
+  }
+
+
+
