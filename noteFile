@@ -1,0 +1,24 @@
+this is the to-do list item html template for future reference 
+
+ <div style="align-items: center;" class="d-flex mt-3">
+               <button class="btn btn-default shadow-none grab-button"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-grip-vertical" viewBox="0 0 16 16"> <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/> </svg></button>
+                    <li  class="nav-item uncompleted-task-item">
+                    <p class="to-do-item-text m-2">Lot. Provident illo qui fugit beatae debitis sed!</p>
+                        <div class="checkButtons">
+                            <button class="btn btn-default shadow-none" id="correctButton"><img width="26" height="26" src="dist/images/correct.png" alt="correct-icon"></button>
+                            <button class="btn btn-default shadow-none"><img width="22" height="22" src="dist/images/wrong.png" alt="wrong-icon"></button>
+                        </div>
+                    </li>
+            
+            </div>
+            
+                <div style="align-items: center;" class="d-flex mt-3">
+                    <button  class="btn btn-default grab-button shadow-none"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-grip-vertical" viewBox="0 0 16 16"> <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/> </svg></button>
+                        <li class="nav-item completed-task-item">
+                        <p class="to-do-item-text m-2">Lot. Provident illo qui fugit beatae debitis sed!</p>
+                            <div class="checkButtons">
+                                <button class="btn btn-default shadow-none"><img width="26" height="26" src="dist/images/correct.png" alt="correct-icon"></button>
+                                <button class="btn btn-default shadow-none"><img width="22" height="22" src="dist/images/wrong.png" alt="wrong-icon"></button>
+                            </div>
+                        </li>
+                    </div>

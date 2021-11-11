@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundImage {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .45;
+}
+
+
+
+.input-container{
+    width: 60%;
+    padding: 0px 30px;
+    border-radius: 11px; 
+    background-color: white;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    justify-content: space-between;
+}
+
+.todo-input, .todo-input:focus{
+    border: none !important; 
+    box-shadow: none !important;
+    width: 100%;
+    padding: 20px ;
+    outline: none;
+}
+
+.todo-button{
+    z-index: 1;
+    opacity: 0.65;
+}
+
+.todo-button:hover{
+    opacity: 0.8;
+}
+
+/* adding a scale animation for all buttons*/
+.btn{
+    transition: all .2s ease-in-out;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* -------------      TASK LIST ITEMS      ------------- */
+
+.todoList-container{
+    width: 60%;
+}
+
+.uncompleted-task-item{
+    
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+.completed-task-item{
+    
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+
+.grab-button{
+    padding: 0 !important; 
+    cursor: grab;
+}
+
+
+.to-do-item-text{
+    color: white;
+}
+
+.sortable-chosen{
+    box-shadow: 8xp 8px 32px #e1e1e1;
+}
+/* -------------                         ------------- */

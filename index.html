@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do-App</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dist/css/custom.css">
+   
+  </head>
+  <body style="background-color: #ffffff">
+    <img class="backgroundImage" src="dist/images/homework.png" alt="background-image">
+        
+        <header class="nav container mt-2">
+            <h1 style="margin: 25px auto; pointer-events: none; color: rgb(255, 125, 125)">To-Do-List</h1>
+        
+        </header>
+           
+        
+           <main id="inputField" style="align-items: center; margin-top: 50px;" class="container input-container d-flex">
+           <input class="todo-input" type="text" placeholder="Write Your Task" >
+           <button id="addToDo" class="btn btn-default shadow-none todo-button" style="padding: 0 !important">
+               <img width="36" height="42" src="dist/images/notebook-icon.png" alt="">
+        
+            </button>
+        </main>
+        
+        
+        <!--            To-Do-List            -->
+           <section style="margin-top: 75px;" class="container todoList-container">
+           <h3 style="color: #5F5F5F; margin-bottom: 30px">Your Tasks Are:</h3>
+        <!-- Our JavaScript code will be printed down here here -->
+            <ul style="display: flex; flex-direction: column;" class="nav todo-list">
+                <div  id="drop-items">
+                </div>
+            </ul>
+        
+           </section>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+        <script src="dist/js/main.js"></script>
+        </body>
+    
+</html>
