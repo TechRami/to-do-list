@@ -75,7 +75,7 @@
 }
 
 .uncompleted-task-item{
-    
+    background-color: #FF9090;
     display: flex;
     width: 100%;
     padding: 10px;
@@ -96,6 +96,13 @@
     cursor: grab;
 }
 */
+
+.date{
+    margin: 0; 
+    align-self: center;
+    pointer-events: none;
+    color: white;
+}
 
 .grab-button{
     padding: 0 !important; 
